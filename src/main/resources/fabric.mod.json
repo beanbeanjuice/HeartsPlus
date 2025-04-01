@@ -1,0 +1,40 @@
+{
+	"schemaVersion": 1,
+	"id": "heartsplus",
+	"version": "${version}",
+	"name": "HeartsPlus",
+	"description": "A simple mod to spread some love!",
+	"authors": [
+		"beanbeanjuice"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "MIT",
+	"icon": "assets/heartsplus/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"com.beanbeanjuice.heartsplus.HeartsPlus"
+		],
+		"client": [
+			"com.beanbeanjuice.heartsplus.HeartsPlusClient"
+		],
+		"fabric-datagen": [
+			"com.beanbeanjuice.heartsplus.HeartsPlusDataGenerator"
+		]
+	},
+	"mixins": [
+		"heartsplus.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.16.10",
+		"minecraft": "~1.20.1",
+		"java": ">=17",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
