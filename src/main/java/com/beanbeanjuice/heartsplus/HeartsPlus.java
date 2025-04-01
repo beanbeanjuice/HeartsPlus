@@ -1,5 +1,7 @@
 package com.beanbeanjuice.heartsplus;
 
+import com.beanbeanjuice.heartsplus.events.hug.HugServerEvent;
+import com.beanbeanjuice.heartsplus.events.kiss.KissServerEvent;
 import net.fabricmc.api.ModInitializer;
 
 import org.slf4j.Logger;
@@ -13,6 +15,9 @@ public class HeartsPlus implements ModInitializer {
 	@Override
 	public void onInitialize() {
 		LOGGER.info("Hello, world!");
+
+		KissServerEvent.registerServer();
+		HugServerEvent.registerServer();
 	}
 
 }
