@@ -1,0 +1,24 @@
+{
+  "kiss": {
+    "category": "player",
+    "sounds": [
+      { "name": "heartsplus:kiss/kiss0", "stream": false },
+      { "name": "heartsplus:kiss/kiss1", "stream": false },
+      { "name": "heartsplus:kiss/kiss2", "stream": false },
+      { "name": "heartsplus:kiss/kiss3", "stream": false },
+      { "name": "heartsplus:kiss/kiss4", "stream": false },
+      { "name": "heartsplus:kiss/kiss5", "stream": false },
+      { "name": "heartsplus:kiss/kiss6", "stream": false }
+    ]
+  },
+  "hug": {
+    "category": "player",
+    "sounds": [
+      { "name": "heartsplus:hug/hug0", "stream": false },
+      { "name": "heartsplus:hug/hug1", "stream": false },
+      { "name": "heartsplus:hug/hug2", "stream": false },
+      { "name": "heartsplus:hug/hug3", "stream": false },
+      { "name": "heartsplus:hug/hug4", "stream": false }
+    ]
+  }
+}
